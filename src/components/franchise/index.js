@@ -1,0 +1,11 @@
+export { default as Content } from "./Content";
+export { default as Costs } from "./Costs";
+export { default as Operate } from "./Operate";
+export { default as OperateCarousel } from "./OperateCarousel";
+export { default as Needs } from "./Needs";
+export { default as Roles } from "./Roles";
+export { default as Payment } from "./Payment";
+export { default as Steps } from "./Steps";
+export { default as Plans } from "./Plans";
+export { default as Comparisons } from "./Comparisons";
+export { default as Connect } from "./Connect";
