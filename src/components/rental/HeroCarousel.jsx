@@ -43,6 +43,7 @@ const HeroCarousel = () => {
           alt=""
           className="w-80 h-72 lg:h-[20rem] lg:w-[50rem]"
         />
+        
 
         <FaChevronRight
           className="text-3xl text-white cursor-pointer"

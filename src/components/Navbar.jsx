@@ -40,12 +40,12 @@ const Navbar = () => {
           <MenuItem link="/" title="Home" />
           <MenuItem link="/about" title="About us" />
           <OurServices />
-          <MenuItem link="/features" title="Features" />
+          <MenuItem link="/features" title="Contact Us" />
           <li>
             <Link to="/download">
               <button className="bg-secondary py-1 px-5 rounded font-bold">
-                Download
-              </button>
+                <p className="text-[#263973] ">Download</p>
+              </button>  
             </Link>
           </li>
         </ul>

@@ -103,7 +103,7 @@ const Services = () => {
       </div>
 
       {/* for larger screens */}
-      <div className="hidden md:flex flex-wrap justify-center lg:justify-between gap-5">
+      <div className="hidden md:flex flex-wrap lg:flex-nowrap justify-center  gap-5">
         <Service
           title="Rental"
           description="Our membership management software provides full automation of membership renewals and payments"

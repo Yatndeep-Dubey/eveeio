@@ -1,7 +1,7 @@
 const Investors = () => {
   return (
     <section>
-      <div className=" bg-primary text-center text-3xl text-white mt-8 mx-4 p-4">
+      <div className=" bg-primary text-center text-3xl text-white mt-8 mx-10 p-4 rounded-lg">
         Our Investors
       </div>
 

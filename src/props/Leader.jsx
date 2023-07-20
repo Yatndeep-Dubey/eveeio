@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Leader = (props) => {
   const { bg, leader, name, position, link } = props;
   return (
-    <div className="bg-white shadow-lg rounded-xl w-fit h-[34.125rem] flex flex-col">
+    <div className="bg-white shadow-lg rounded-xl w-fit h-[34.125rem] flex flex-col shrink-0">
       <img
         src={leader}
         alt="leader"

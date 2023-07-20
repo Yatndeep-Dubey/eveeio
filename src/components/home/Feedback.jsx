@@ -2,7 +2,7 @@ import { Carousel } from "../../props";
 
 const Feedback = () => {
   return (
-    <section className="my-5">
+    <section className="my-16">
       <p className="text-center text-4xl text-primary font-bold my-3">
         Caring is the new marketing
       </p>
@@ -10,7 +10,7 @@ const Feedback = () => {
         Listen to what people have to say about us
       </p>
 
-      <div className="flex gap-10 overflow-x-scroll scrollbar-none mt-10">
+      <div className="flex  overflow-x-scroll scrollbar-none mt-10 ">
         <Carousel />
         <Carousel />
         <Carousel />
@@ -18,6 +18,9 @@ const Feedback = () => {
         <Carousel />
         <Carousel />
         <Carousel />
+      </div>
+      <div className="mt-5">
+        <img src="/images/hero/dot.svg" className="mx-auto" alt="dot"></img>
       </div>
     </section>
   );

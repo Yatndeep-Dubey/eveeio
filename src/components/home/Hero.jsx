@@ -14,6 +14,14 @@ const Hero = () => {
   return (
     <div className="bg-hero pt-44 lg:pt-56  lg:px-24 h-[52rem]">
       {/* video */}
+      <div className="absolute top-96 left-5" > 
+      <img
+              src="/images/hero/leftarrow.svg"
+              alt=""
+              srcset=""
+              className=" "
+            />
+      </div>
       <div
         className={
           video
@@ -23,7 +31,7 @@ const Hero = () => {
       >
         <video
           src="/images/hero/hero-video.mp4"
-          className="h-[40rem] bg-gray-500 w-[18rem] rounded-lg lg:w-[50rem] lg:h-[25rem]"
+          className="h-[40rem] bg-gray-500 w-[18rem] rounded-lg lg:w-[70rem] lg:h-[35rem]"
         />
         <p
           onClick={closeVideo}
@@ -118,16 +126,25 @@ const Hero = () => {
               className="text-xl text-white float-right cursor-pointer flex flex-col items-center mr-10 lg:block md:block"
               onClick={playVideo}
             >
-              <img
+               <img
                 src="/images/hero/play-icon.svg"
                 alt=""
                 srcset=""
                 className=" px-8 lg:h-16"
               />
               <p>Watch Video</p>
+             
             </div>
           </div>
         </div>
+      </div>
+      <div className="absolute top-96 right-5" > 
+      <img
+              src="/images/hero/rightarrow.svg"
+              alt=""
+              srcset=""
+              className=" "
+            />
       </div>
     </div> /*hero div close*/
   );

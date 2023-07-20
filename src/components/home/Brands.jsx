@@ -1,7 +1,7 @@
 const Brands = () => {
   return (
     <section className="overflow-x-hidden">
-      <div className="bg-primary text-center text-3xl text-white mx-4 mt-8 p-4">
+      <div className="bg-primary text-center text-3xl text-white mx-10 rounded-lg mt-8 p-4">
         Brand that trust us
       </div>
 
