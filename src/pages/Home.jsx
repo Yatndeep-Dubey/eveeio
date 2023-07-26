@@ -20,7 +20,7 @@ const Home = () => {
       <img
         src="/images/how-to-use/video.svg"
         alt="video"
-        className="-mt-20 sm:-mt-44 lg:-mt-72 mx-auto"
+        className="-mt-24 sm:-mt-44 lg:-mt-72 mx-auto"
       />
 
       <Brands />
