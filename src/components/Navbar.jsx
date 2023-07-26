@@ -40,7 +40,7 @@ const Navbar = () => {
           <MenuItem link="/" title="Home" />
           <MenuItem link="/about" title="About us" />
           <OurServices />
-          <MenuItem link="/features" title="Contact Us" />
+          <MenuItem link="/contact" title="Contact Us" />
           <li>
             <Link to="/download">
               <button className="bg-secondary py-1 px-5 rounded font-bold">

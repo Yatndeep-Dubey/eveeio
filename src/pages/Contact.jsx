@@ -4,12 +4,12 @@ import Hero from "../containers/Hero";
 const Contact = () => {
   return (
     <div>
-      <Hero customClass="h-[23rem] mb-28 p-5 md:mb-56 md:p-10 lg:flex lg:flex-row-reverse lg:justify-end">
-        <div>
-          <p className="uppercase text-xl font-bold text-secondary md:text-4xl">
+      <Hero customClass="h-[23rem] mb-28 p-5 md:mb-56 md:p-10 lg:flex lg:flex-row-reverse lg:justify-end xl:h-[27rem] lg:justify-center lg:gap-20 lg:pt-44">
+        <div className="lg:pt-20">
+          <p className="uppercase text-xl font-bold text-secondary md:text-4xl lg:text-5xl xl:text-6xl">
             Contact Us
           </p>
-          <p className="text-white text-xs uppercase md:text-md">
+          <p className="text-white text-xs uppercase md:text-md lg:text-lg">
             Get in touch with us{" "}
           </p>
         </div>
@@ -17,7 +17,7 @@ const Contact = () => {
         <img
           src="images/hero/girl-using-laptop.svg"
           alt=""
-          className="md:h-80"
+          className="h-64 mx-auto md:h-80 md:mx-0 xl:h-[25rem]"
         />
       </Hero>
 
