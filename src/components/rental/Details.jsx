@@ -6,7 +6,7 @@ const Details = () => {
         which includes:
       </p>
 
-      <div className="h-[34rem] w-[21.313rem] bg-purplish rounded-xl p-5 text-sm my-5 shadow md:w-[35rem] lg:w-[20rem]">
+      <div className="h-[34rem] w-[21.313rem] bg-purplish rounded-xl p-5 text-sm my-5 shadow md:w-[35rem] lg:w-[23rem] xl:w-[35rem]">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
         repudiandae alias labore cumque laudantium in officiis mollitia?
         Accusantium optio quam voluptatum voluptatibus, hic aliquam facilis.
