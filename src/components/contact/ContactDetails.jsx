@@ -2,7 +2,7 @@ import { ContactDetail } from "../../props";
 
 const ContactDetails = () => {
   return (
-    <section className="flex flex-col items-center gap-10 my-10 lg:flex-row lg:justify-center">
+    <section className="flex flex-col items-center gap-10 my-10 lg:flex-row lg:justify-center xl:gap-40">
       <ContactDetail
         title="OUR ADDRESS"
         detail="Lorem enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper veli libero urna, feugiat."

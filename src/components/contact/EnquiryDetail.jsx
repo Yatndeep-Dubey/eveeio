@@ -1,7 +1,7 @@
 const EnquiryDetails = () => {
   return (
     <section>
-      <div className="h-[34rem] w-[21.313rem] bg-purplish mx-auto rounded-xl p-5 text-sm my-5 shadow md:w-[35rem] lg:w-[20rem]">
+      <div className="h-[34rem] w-[21.313rem] bg-purplish mx-auto rounded-xl p-5 text-sm my-5 shadow md:w-[35rem] lg:w-[20rem] xl:w-[35rem]">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
         repudiandae alias labore cumque laudantium in officiis mollitia?
         Accusantium optio quam voluptatum voluptatibus, hic aliquam facilis.

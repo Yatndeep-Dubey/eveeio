@@ -7,10 +7,10 @@ const IOT = () => {
   return (
     <div>
       <Hero customClass="p-5 lg:h-[30rem] lg:mb-52 xl:h-[38rem]">
-        <p className="text-xl text-secondary font-bold md:text-2xl lg:text-4xl">
+        <p className="text-xl text-secondary font-bold md:text-2xl lg:text-4xl xl:text-5xl">
           Stay Connected on the Move:
         </p>
-        <p className="text-white text-sm md:text-md lg:text-lg">
+        <p className="text-white text-sm md:text-md lg:text-lg xl:text-2xl my-4">
           Track Your Vehicle with Our Smart IoT Solution!
         </p>
 
