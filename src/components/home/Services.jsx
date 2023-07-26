@@ -13,7 +13,7 @@ const Services = () => {
   };
 
   return (
-    <section className="bg-primary p-10 space-y-10">
+    <section className="bg-primary p-10 md:space-y-10">
       <p className="text-white text-4xl text-center">Our Services</p>
 
       {/* for mobile screens */}
@@ -22,7 +22,7 @@ const Services = () => {
         <div className="flex items-center justify-center">
           <button onClick={handlePrevSlide}>
             <svg
-              className="w-8 h-8 text-gray-400"
+              className="w-10 h-10 text-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -86,7 +86,7 @@ const Services = () => {
           </div>
           <button onClick={handleNextSlide}>
             <svg
-              className="w-8 h-8 text-gray-400"
+              className="w-10 h-10 text-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"

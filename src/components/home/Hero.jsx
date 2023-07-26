@@ -14,14 +14,7 @@ const Hero = () => {
   return (
     <div className="bg-hero pt-44 lg:pt-56  lg:px-24 h-[52rem]">
       {/* video */}
-      <div className="absolute top-96 left-5" > 
-      <img
-              src="/images/hero/leftarrow.svg"
-              alt=""
-              srcset=""
-              className=" "
-            />
-      </div>
+      
       <div
         className={
           video
@@ -42,7 +35,7 @@ const Hero = () => {
       </div>
 
       <div className="w-full  mx-auto  md:flex flex-row justify-between ">
-        <div className="hidden lg:block md:block">
+        <div className="hidden lg:block md:block mt-5">
           <div className="rectangle ">
             <img
               src="/images/hero/rectangle.svg"
@@ -86,7 +79,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="items-center">
-          <div className="w-full mx-auto h-full -mt-12">
+          <div className="w-full mx-auto h-full -mt-12 flex ">
             <img
               src="/images/hero/phone-screen.svg"
               alt="phone-screen"
@@ -94,36 +87,9 @@ const Hero = () => {
               className="mx-auto h-96  md:h-4/5 sm:h-full"
             />
 
-            <div className="block lg:hidden md:hidden">
-              {/* <p className=" text-secondary text-3xl  text-center mt-8" >A GREAT APP MAKES </p>
-          <p className=" text-secondary text-3xl  text-center" > YOUR LIFE Better</p>
-          <p className="text-white text-center mt-4 mx-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p> */}
-              <p className="text-white text-3xl text-center mt-4">
-                Download App Now
-              </p>
-
-              <div className="p-4 w-max ml-4 items-center flex">
-                <div className="bg-black w-fit text-white text-xs border flex rounded-lg p-2 ">
-                  <img src="/images/hero/google-play 1.svg" alt="" srcset="" />
-                  <p>
-                    Get it on <p className="text-sm"> Google play</p>
-                  </p>
-                </div>
-
-                <div className="bg-black w-fit ml-4 text-white text-xs  border flex rounded-lg p-[0.4rem] ">
-                  <img
-                    src="/images/hero/ic_baseline-apple.svg"
-                    alt=""
-                    srcset=""
-                  />
-                  <p>
-                    Download on the <p className="text-sm">App Store </p>{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
+            
             <div
-              className="text-xl text-white float-right cursor-pointer flex flex-col items-center mr-10 lg:block md:block"
+              className="text-xl text-white  cursor-pointer md:flex md:flex-col items-center   hidden h-fit lg:mt-[28rem]"
               onClick={playVideo}
             >
                <img
@@ -135,17 +101,49 @@ const Hero = () => {
               <p>Watch Video</p>
              
             </div>
+            
+          </div>
+          <div className=" md:hidden lg:hidden">
+            <h1 className="text-yellow-400 text-center my-5 text-2xl font-extrabold ">DOWNLOAD NOW</h1>
+          <div className="p-4 w-full  justify-around flex">
+              <div className="bg-black w-[40%] text-white text-xs border flex rounded-lg p-1 items-center ">
+                <img src="/images/hero/google-play 1.svg" alt="" srcset="" className="h-10 w-10"/>
+                <p>
+                  Get it on <p className="text-sm font-bold"> Google play</p>
+                </p>
+              </div>
+
+              <div className="bg-black w-[40%] text-white text-xs  border flex rounded-lg p-1 space-x-2 ">
+                <img
+                  src="/images/hero/ic_baseline-apple.svg"
+                  alt=""
+                  srcset=""
+                  className="h-10 w-10"
+                />
+                <p>
+                  Download on  <p className="text-sm">App Store </p>{" "}
+                </p>
+              </div>
+            </div>
+            <div className="w-full flex justify-end px-5">
+            <div
+              className="text-xl text-white  cursor-pointer  items-center w-fit flex flex-col     lg:hidden md:hidden  h-fit lg:mt-[28rem]"
+              onClick={playVideo}
+            >  
+               <img
+                src="/images/hero/play-icon.svg"
+                alt=""
+                srcset=""
+                className="h-10 w-10"
+              />
+              <p>Watch Video</p>
+             
+            </div>
+            </div>
           </div>
         </div>
       </div>
-      <div className="absolute top-96 right-5" > 
-      <img
-              src="/images/hero/rightarrow.svg"
-              alt=""
-              srcset=""
-              className=" "
-            />
-      </div>
+      
     </div> /*hero div close*/
   );
 };
