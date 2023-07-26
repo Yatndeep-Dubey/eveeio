@@ -15,7 +15,7 @@ const Connect = () => {
           </label>
           <input
             type="text"
-            className="rounded-full w-full py-2 px-3 focus:outline-none"
+            className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
           />
         </div>
 
@@ -25,7 +25,7 @@ const Connect = () => {
           </label>
           <input
             type="email"
-            className="rounded-full w-full py-2 px-3 focus:outline-none"
+            className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
           />
         </div>
 
@@ -35,7 +35,7 @@ const Connect = () => {
           </label>
           <input
             type="tel"
-            className="rounded-full w-full py-2 px-3 focus:outline-none"
+            className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
           />
         </div>
 
@@ -45,7 +45,7 @@ const Connect = () => {
           </label>
           <input
             type="text"
-            className="rounded-full w-full py-2 px-3 focus:outline-none"
+            className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
           />
         </div>
 
@@ -116,7 +116,7 @@ const Connect = () => {
           </label>
           <input
             type="date"
-            className="rounded-full w-full py-2 px-3 focus:outline-none"
+            className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
           />
         </div>
 
@@ -126,7 +126,7 @@ const Connect = () => {
           </label>
           <input
             type="time"
-            className="rounded-full w-full py-2 px-3 focus:outline-none"
+            className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
           />
         </div>
 

@@ -9,3 +9,4 @@ export { default as Steps } from "./Steps";
 export { default as Plans } from "./Plans";
 export { default as Comparisons } from "./Comparisons";
 export { default as Connect } from "./Connect";
+export { default as Details } from "./Details";
