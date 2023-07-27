@@ -10,11 +10,7 @@ const Feedback = () => {
         Listen to what people have to say about us
       </p>
 
-      <div className="flex  overflow-x-scroll scrollbar-none mt-10 ">
-        <Carousel />
-        <Carousel />
-        <Carousel />
-        <Carousel />
+      <div className="flex overflow-x-scroll scrollbar-none mt-10 mx-20">
         <Carousel />
         <Carousel />
         <Carousel />
