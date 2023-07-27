@@ -12,13 +12,13 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-hero pt-44 lg:pt-56  lg:px-24 h-[52rem]">
+    <div className="">
       {/* video */}
       
       <div
         className={
           video
-            ? `absolute w-full left-0 overflow-hidden flex justify-center top-36 z-50 lg:top-44`
+            ? `absolute w-full left-0 overflow-hidden flex justify-center -top-14 z-[45] lg:top-44`
             : `hidden`
         }
       >
