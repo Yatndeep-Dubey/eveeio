@@ -9,7 +9,7 @@ const Stats = () => {
       <p className="text-center">
         We reached here with our hard work and dedication
       </p>
-      <div className="w-fit mx-auto lg:grid grid-cols-2 gap-10 lg:w-fit lg:gap-24 my-10 space-x-36">
+      <div className="w-fit mx-auto lg:grid grid-cols-2 gap-10 lg:w-fit lg:gap-24 my-10 lg:space-x-36">
         <Stat
           symbol="/images/stats/scooter.svg"
           title="10K"
@@ -20,8 +20,8 @@ const Stats = () => {
           title="10MN"
           description="Kg Co2 Emissions"
         />
-        </div>
-        <div className=" w-fit mx-auto lg:grid grid-cols-2 gap-10 lg:w-fit lg:gap-24 my-10 space-x-36" >
+      </div>
+      <div className=" w-fit mx-auto lg:grid grid-cols-2 gap-10 lg:w-fit lg:gap-24 my-10 lg:space-x-36">
         <Stat
           symbol="/images/stats/ride.svg"
           title="25MN"
