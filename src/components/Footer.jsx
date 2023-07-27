@@ -96,7 +96,7 @@ const Footer = () => {
             links={FooterLinks[2].links}
           />
 
-          <div>
+          <div className="flex-1">
             {/* subscribe section */}
             <div className="space-y-[1.875rem] py-16 px-10 border-b">
               <p className="text-xl text-white font-bold">Subscribe</p>
