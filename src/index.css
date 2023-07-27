@@ -5,6 +5,9 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+p {
+  line-height: 1.8rem;
+}
 
 /* ...............hero.................... */
 .bg-hero {
@@ -42,8 +45,7 @@
   height: 100px;
   overflow: hidden;
   position: relative;
-  width: auto
-
+  width: auto;
 }
 .slider .slide-track {
   animation: scroll 15s linear infinite;
