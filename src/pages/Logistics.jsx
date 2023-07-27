@@ -7,7 +7,7 @@ const Logistics = () => {
   return (
     <div>
       <Hero customClass="h-72 mb-40 p-5 lg:h-96 lg:mb-52">
-        <p className="text-grayish text-sm lg:text-xl xl:text-2xl">Ecommerce Logistics, Back Office</p>
+        <p className="text-grayish text-sm mb-3 lg:mb-5 lg:text-xl xl:text-2xl">Ecommerce Logistics, Back Office</p>
         <p className="font-bold text-secondary lg:text-3xl xl:text-4xl">
           What is 3PL: Meaning and How to Pick One
         </p>

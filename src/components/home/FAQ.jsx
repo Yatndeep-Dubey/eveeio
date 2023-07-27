@@ -2,7 +2,7 @@ import { Faq } from "../../props";
 
 const FAQ = () => {
   return (
-    <section className="px-10 py-20" id="faq">
+    <section className="px-10 pt-28" id="faq">
       <p className="text-4xl text-primary font-bold text-center">FAQs</p>
       <div className="flex flex-col lg:flex-row justify-between w-fit mx-auto gap-10 my-10">
         <div className="flex flex-col gap-5">

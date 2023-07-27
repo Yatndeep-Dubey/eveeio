@@ -1,6 +1,6 @@
 const Carousel = () => {
   return (
-    <div className=" flex flex-col items-center shrink-0   py-10 ">
+    <div className=" flex flex-col items-center shrink-0 py-10 ">
       <div>
        <img src="/images/feedback/user.svg" alt="user" className="w-96"/>
       </div>

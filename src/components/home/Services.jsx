@@ -110,7 +110,7 @@ const Services = () => {
           img="/images/services/rental.svg"
         />
         <Service
-          title="IOT & Mobile&nbsp;application for rental services"
+          title="IOT & Mobile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;application for rental services"
           description="IOT & Telematics for rental services"
           img="/images/services/iot.svg"
         />

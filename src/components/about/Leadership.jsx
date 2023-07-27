@@ -6,7 +6,7 @@ const Leadership = () => {
       <p className="text-4xl text-primary font-bold text-center">
         Our Leadership
       </p>
-      <div className="flex flex-col gap-10  justify-center items-center my-10 lg:flex-wrap lg:flex-row">
+      <div className="flex flex-col gap-10  justify-center items-center my-10 lg:flex-wrap lg:flex-row xl:gap-28 xl:mx-10 2xl:gap-32">
         <Leader
           bg="bg-[#e3e9ff]"
           leader="/images/leadership/leader.svg"

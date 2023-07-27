@@ -1,7 +1,7 @@
 import { Fragment, useRef, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 
-export default function Popup({ title, content, popup }) {
+export default function Popup({ title, content }) {
   const [open, setOpen] = useState(true);
 
   const cancelButtonRef = useRef(null);
@@ -26,7 +26,7 @@ export default function Popup({ title, content, popup }) {
           <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
         </Transition.Child>
 
-        <div className="fixed inset-0 z-10 overflow-y-auto">
+        <div className="fixed inset-0 z-10 overflow-y-auto ">
           <div className="flex min-h-full items-start justify-center p-4 text-center sm:items-center sm:p-0">
             <Transition.Child
               as={Fragment}
@@ -37,7 +37,7 @@ export default function Popup({ title, content, popup }) {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative top-20 transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+              <Dialog.Panel className="fixed top-24 overflow-y-scroll scrollbar scrollbar-none bottom-5 transform rounded-lg text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
                 <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
                   <div className="sm:flex sm:items-start">
                     <div className="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
@@ -50,7 +50,10 @@ export default function Popup({ title, content, popup }) {
                         </Dialog.Title>
 
                         <p
-                          onClick={() => setOpen(false)}
+                          onClick={() => {
+                            setOpen(false);
+                            window.location.reload();
+                          }}
                           className="text-3xl text-blakish absolute top-5 right-5 cursor-pointer"
                         >
                           X
