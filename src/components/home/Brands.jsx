@@ -5,7 +5,7 @@ const Brands = () => {
         Brand that trust us
       </div>
 
-      <div className="slider border my-5 py-5">
+      <div className="slider border mt-5 pt-5">
         <div className="slide-track">
           <div className="slide">
             <img
