@@ -11,7 +11,7 @@ const Potentials = () => {
         EVERYDAY LIFE
       </p>
 
-      <div className="my-10 flex flex-col gap-7">
+      <div className="my-10 flex flex-col gap-10 mx-10 xl:mx-24">
         <Potential
           title="Enhanced Fleet Management"
           description="IoT devices provide real-time monitoring and tracking of rental EVs. Fleet managers can access data on vehicle location, status, and performance remotely. This enables efficient fleet management, optimized utilization, and timely maintenance of the vehicles."

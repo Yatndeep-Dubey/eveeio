@@ -28,7 +28,7 @@ export const FooterLinks = [
       },
       {
         text: "Careers",
-        url: "/careers",
+        url: "/jobs",
       },
       {
         text: "Contact Us",

@@ -3,6 +3,7 @@ import {
   Connect,
   Content,
   Costs,
+  Details,
   Needs,
   Operate,
   OperateCarousel,
@@ -11,7 +12,6 @@ import {
   Roles,
   Steps,
 } from "../components/franchise";
-import { Details } from "../components/rental";
 import Hero from "../containers/Hero";
 
 const Franchise = () => {
@@ -71,7 +71,7 @@ const Franchise = () => {
           "Let's Connect : Schedule a Meeting with Us!"
         </p>
         <div className="lg:flex lg:flex-row-reverse lg:justify-evenly lg:mx-10 lg:gap-10 py-10">
-          <Details /> {/* This is the same component as in Rental.jsx */}
+          <Details />
           <Connect />
         </div>
       </section>

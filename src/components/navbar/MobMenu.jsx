@@ -145,14 +145,14 @@ export default function MobMenu() {
             <Menu.Item>
   {({ active }) => (
     <a
-      href="/"
+      href="/contact"
       className={classNames(
         active ? "bg-gray-100 text-gray-900" : "text-[#3D4294]",
         "block px-4 py-2 text-sm text-[17px]"
       )}
       onClick={() => setFeaturesDropdown(!featuresDropdown)}
     >
-      Features
+      Contact Us
     </a>
   )}
 </Menu.Item>

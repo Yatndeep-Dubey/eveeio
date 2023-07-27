@@ -12,7 +12,7 @@ const Enquiry = () => {
           </label>
           <input
             type="text"
-            className="rounded-full w-full py-2 px-3 focus:outline-none"
+            className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
           />
         </div>
 
@@ -22,7 +22,7 @@ const Enquiry = () => {
           </label>
           <input
             type="email"
-            className="rounded-full w-full py-2 px-3 focus:outline-none"
+            className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
           />
         </div>
 
@@ -45,7 +45,7 @@ const Enquiry = () => {
           </label>
           <input
             type="tel"
-            className="rounded-full w-full py-2 px-3 focus:outline-none"
+            className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
           />
         </div>
 
@@ -55,7 +55,7 @@ const Enquiry = () => {
           </label>
           <input
             type="text"
-            className="rounded-full w-full py-2 px-3 focus:outline-none"
+            className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
           />
         </div>
 
@@ -65,7 +65,7 @@ const Enquiry = () => {
           </label>
           <input
             type="text"
-            className="rounded-full w-full py-2 px-3 focus:outline-none"
+            className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
           />
         </div>
 

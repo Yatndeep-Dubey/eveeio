@@ -25,7 +25,7 @@ const Rental = () => {
         <p className="hidden lg:block text-4xl xl:text-5xl text-primary text-center">
           "Let's Connect : Schedule a Meeting with Us!"
         </p>
-        <div className="lg:flex lg:flex-row-reverse lg:justify-evenly lg:mx-10 lg:gap-10 py-10">
+        <div className="lg:flex lg:flex-row-reverse lg:justify-evenly lg:gap-10 py-10 w-fit lg:mx-auto xl:gap-24">
           <Details />
           <Connect />
         </div>
