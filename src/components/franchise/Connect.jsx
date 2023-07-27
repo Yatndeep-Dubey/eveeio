@@ -7,7 +7,7 @@ const Connect = () => {
 
       <form
         method="POST"
-        className="w-[21.375rem] bg-purplish mx-auto my-7 rounded-xl p-5 space-y-5 shadow md:w-[35rem] md:space-y-7 lg:w-fit lg:my-0"
+        className="w-[20rem] bg-purplish mx-auto my-7 rounded-xl p-5 space-y-5 shadow md:w-[35rem] md:space-y-7 lg:w-fit lg:my-0"
       >
         <div className="flex flex-col gap-3">
           <label htmlFor="name" className="font-bold text-gray-800">
