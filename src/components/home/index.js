@@ -6,3 +6,4 @@ export { default as HowToUse } from "./HowToUse";
 export { default as FAQ } from "./FAQ";
 export { default as Feedback } from "./Feedback";
 export { default as Brands } from "./Brands";
+export { default as HeroCarousel } from "./HeroCarousel";

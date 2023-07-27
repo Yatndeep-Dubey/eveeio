@@ -23,30 +23,29 @@ const Details = () => {
         amet similique placeat, explicabo delectus odit
         <br />
         <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt
-        odio eveniet accusantium magni nostrum impedit mollitia recusandae
-        assumenda perspiciatis natus quas molestias, rerum repellat corrupti
-        nihil ipsam eos autem est nobis iusto deserunt aspernatur omnis
-        nemodicta iste quia exercitationem quo repudiandae rerum ipsam.
-        Dignissimos alias dolorum recusandae, voluptates repudiandae non,
-        accusantium doloribus velit numquam quam possimus esse officiis
-        dignissimos quaerat rem deleniti, sapiente quo quisquam hic, dolores
-        quod incidunt vero nulla obcaecati a? Reiciendis repudiandae cumque
-        fugiat odit similique cum labore consequatur iusto sequi sunt at quis
-        ducimus iure, vero assumenda sit quas veritatis ex impedit aperiam illo{" "}
         <br />
-        <br />
-        eveniet nam? Labore impedit eligendi voluptates voluptatum error
-        necessitatibus accusantium suscipit consequatur, harum veniam rem
-        laborum maiores id dolore ipsam consequuntur quod nesciunt, eum tempore
-        enim magnam fuga animi exercitationem. Iste nostrum reiciendis ipsum ex
-        suscipit blanditiis corrupti quisquam fuga illum libero sed
-        exercitationem sequi, vero ipsa, temporibus tenetur iusto, et esse earum
-        consectetur voluptate modi odit explicabo. Quisquam, perspiciatis,
-        sapiente minus illum rerum ad <br />
-        <br />
-        architecto incidunt, laboriosam perferendis dignissimos dolore excepturi
-        nostrum dolorem qui optio numquam. Quam aliquid ipsa harum
+        <p className="hidden lg:block">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+          molestiae veritatis aspernatur? Recusandae, quidem? Iusto, modi
+          numquam aliquam culpa, aperiam ad hic nemo sapiente tempora, debitis
+          fuga amet ea? Unde veritatis temporibus autem cupiditate numquam
+          inventore illum quas aliquid exercitationem. Accusantium tempore fuga
+          nulla est cupiditate ipsa, error quas dolore sapiente impedit
+          praesentium pariatur blanditiis sint possimus illo, voluptatibus nihil
+          ducimus laborum voluptate molestiae. Corporis quaerat reprehenderit
+          consectetur eius labore unde. Optio veniam nobis, debitis totam est{" "}
+          <br />
+          <br />
+          nostrum nulla dignissimos corporis. eveniet nam? Labore impedit
+          eligendi voluptates voluptatum error necessitatibus accusantium
+          suscipit consequatur, harum veniam rem laborum maiores id dolore ipsam
+          consequuntur quod nesciunt, eum tempore enim magnam fuga animi
+          exercitationem. Iste nostrum reiciendis ipsum ex suscipit blanditiis
+          corrupti quisquam fuga illum libero sed exercitationem sequi, vero
+          ipsa, temporibus tenetur iusto, et esse earum consectetur voluptate
+          modi odit explicabo. Quisquam, perspiciatis, sapiente minus illum
+          rerum ad <br />
+        </p>
         <p className="hidden xl:block">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat nisi
           deleniti error ducimus odit, facere beatae inventore ratione
