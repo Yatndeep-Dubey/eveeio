@@ -9,7 +9,7 @@ import { MobMenu, OurServices } from "./navbar/";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 z-50 w-full backdrop-blur pt-5 md:pt-[3rem]">
+    <nav className="fixed top-0 z-50 w-full backdrop-blur pt-5 md:pt-[2rem]">
       {/* for small screen */}
       <div className="bg-white shadow pl-3 h-[3.813rem] mx-[0.688rem] rounded-2xl flex items-center justify-between lg:hidden">
         {/* logo */}
