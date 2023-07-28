@@ -16,7 +16,7 @@ const HeroCarousel = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto bg-hero pt-44 h-[52rem]">
+    <div className="bg-hero pt-44 h-[52rem]">
       <div className="relative">
         <div className="flex items-center">
           <button className="absolute top-44" onClick={handlePrevSlide}>
@@ -73,11 +73,19 @@ const HeroCarousel = () => {
 
         <div className="flex w-fit mx-auto gap-1 mb-10 mt-5">
           <BiSolidCircle
-            className={currentSlide === 1 ? `text-primary` : `text-gray-400`}
+            className={
+              currentSlide === 1
+                ? `text-primary cursor-pointer`
+                : `text-gray-400 cursor-pointer`
+            }
             onClick={() => setCurrentSlide(1)}
           />
           <BiSolidCircle
-            className={currentSlide === 2 ? `text-primary` : `text-gray-400`}
+            className={
+              currentSlide === 2
+                ? `text-primary cursor-pointer`
+                : `text-gray-400 cursor-pointer`
+            }
             onClick={() => setCurrentSlide(2)}
           />
         </div>

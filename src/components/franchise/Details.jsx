@@ -44,7 +44,7 @@ const Details = () => {
           corrupti quisquam fuga illum libero sed exercitationem sequi, vero
           ipsa, temporibus tenetur iusto, et esse earum consectetur voluptate
           modi odit explicabo. Quisquam, perspiciatis, sapiente minus illum
-          rerum ad <br />
+          rerum ad <br /> <br />
         </p>
         <p className="hidden xl:block">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat nisi
@@ -56,17 +56,7 @@ const Details = () => {
           expedita quaerat quos consequuntur! Ipsa unde aliquid suscipit nihil
           magnam hic similique molestias. Nulla aliquam ea reiciendis minus,ur
           voluptate iste nostrum veritatis sunt, alias soluta eos enim
-          perspiciatis corporis, animi hic expedita? <br />
-          <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          perferendis dolorem, eligendi dicta voluptatum odio ea consequuntur
-          corrupti dolorum quia porro, ex pariatur asperiores vitae eos ullam
-          nulla. Quaerat voluptatum nostrum sequi odit quos quo itaque
-          consequuntur, error consectetur tenetur quisquam pariatur. Consequatur
-          porro provident nam similique possimus praesentium vel maiores
-          mollitia dolore, expedita magni facilis quas impedit, eum vero
-          veritatis, rem placeat hic quam odit distinctio modi. Quam nisi natus
-          aliquid laboriosam veniam tempora recusandae commodi tenetur
+          perspiciatis corporis, animi hic expedita?
         </p>
       </div>
     </section>
