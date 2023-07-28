@@ -29,7 +29,7 @@ const Payment = () => {
             </div>
           </div>
 
-          <div className="flex flex-col pl-48 justify-center w-1/2">
+          <div className="flex flex-col p-5 lg:pl-48 justify-center w-1/2">
             <div>
               <p className="text-lg font-bold lg:text-xl">17.88%</p>
               <p className="font-extrabold text-lg lg:text-xl">Compounding</p>
@@ -45,7 +45,7 @@ const Payment = () => {
               alt="rupee symbol"
             />
             <div>
-              <p className="ext-lg font-bold lg:text-xl">3,60,000</p>
+              <p className="text-lg font-bold lg:text-xl">3,60,000</p>
               <p className="font-bold lg:text-xl">
                 <span className="text-sm text-blueish font-normal lg:text-base">
                   Returns after
@@ -55,7 +55,7 @@ const Payment = () => {
             </div>
           </div>
 
-          <div className="flex flex-col pl-48 justify-center w-1/2">
+          <div className="flex flex-col p-5 lg:pl-48 justify-center w-1/2">
             <div>
               <p className="text-lg font-bold lg:text-xl">20.09%</p>
               <p className="font-extrabold text-lg lg:text-xl">IRR</p>

@@ -34,7 +34,7 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="w-full  mx-auto  md:flex flex-row justify-between ">
+      <div className="w-11/12  mx-auto  md:flex flex-row justify-between ">
         <div className="hidden lg:block md:block mt-5">
           <div className="rectangle ">
             <img
@@ -59,7 +59,7 @@ const Hero = () => {
 
             <div className="p-4 w-full flex">
               <div className="bg-black w-1/2 text-white text-xs border flex rounded-lg p-2 ">
-                <img src="/images/hero/google-play 1.svg" alt="" srcset="" />
+                <img src="/images/hero/google-play 1.svg" alt=""/>
                 <p>
                   Get it on <p className="text-sm"> Google play</p>
                 </p>
