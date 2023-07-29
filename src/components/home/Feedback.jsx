@@ -1,5 +1,7 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Carousel } from "../../props";
+
+// icons
 import { BiSolidCircle } from "react-icons/bi";
 
 const Feedback = () => {
@@ -10,7 +12,8 @@ const Feedback = () => {
     const carouselItems = carouselContainerRef.current.children;
     if (carouselItems && carouselItems[index]) {
       const item = carouselItems[index];
-      const containerRect = carouselContainerRef.current.getBoundingClientRect();
+      const containerRect =
+        carouselContainerRef.current.getBoundingClientRect();
       const itemRect = item.getBoundingClientRect();
       const scrollLeft =
         itemRect.left -
