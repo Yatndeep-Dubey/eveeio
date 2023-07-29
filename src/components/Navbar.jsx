@@ -42,7 +42,7 @@ const Navbar = () => {
           <OurServices />
           <MenuItem link="/contact" title="Contact Us" />
           <li>
-            <Link to="/download">
+            <Link to="/">
               <button className="bg-secondary py-1 px-5 rounded font-bold">
                 <p className="text-[#263973] ">Download</p>
               </button>  
