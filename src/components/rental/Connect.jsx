@@ -9,26 +9,28 @@ const Connect = () => {
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      console.log(rname,remail,rphone_number,rdate,rtime)
       let res = await fetch("http://localhost:4000/rentalform",
        {
         method: "POST",
         body : JSON.stringify({
           name: rname,
           email: remail,
-          phone_number: rphone_number,
+          phone: rphone_number,
           date:rdate,
           time:rtime
         }),
+        headers: {
+          'Content-Type': 'application/json'
+        },
         
       });
 
       let resJson = await res.json();
-      console.log(resJson.message)
-      console.log(res.status)
       if (res.status === 200) {
         alert("Success")
-      } else {
+      } 
+      else
+       {
         alert(resJson.message)
       }
     } catch (err) {
