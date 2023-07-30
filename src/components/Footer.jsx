@@ -1,23 +1,13 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FooterLinks, FooterSocials } from "../constants";
 import { FooterItem } from "../props";
 
 // icons
 import { HiArrowRight, HiOutlineMail } from "react-icons/hi";
-import { Disclaimer, Privacy, TNC } from "./popups";
 
 const Footer = () => {
-  const [privacy, setPrivacy] = useState(false);
-  const [tnc, setTnc] = useState(false);
-  const [disclaimer, setDisclaimer] = useState(false);
-
   return (
     <footer className="bg-[#2e2e2e]">
-      {privacy && <Privacy />}
-      {tnc && <TNC />}
-      {disclaimer && <Disclaimer />}
-
       {/* mobile menu */}
       <div className="lg:hidden p-5">
         <div className="flex flex-wrap">
@@ -106,7 +96,7 @@ const Footer = () => {
             links={FooterLinks[2].links}
           />
 
-          <div>
+          <div className="flex-1">
             {/* subscribe section */}
             <div className="space-y-[1.875rem] py-16 px-10 border-b">
               <p className="text-xl text-white font-bold">Subscribe</p>

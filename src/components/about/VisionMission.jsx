@@ -13,7 +13,10 @@ const VisionMission = () => {
         title="Our Mission"
         description="We are on a mission zero emission where we wish to accelerate last mile delivery to go 100% sustainable with EVs by 2028 while making it efficient, affordable, intelligent, and reliable."
       />
+
     </section>
+
+    
   );
 };
 

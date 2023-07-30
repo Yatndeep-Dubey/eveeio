@@ -8,7 +8,7 @@ const Needs = () => {
         alt="question mark"
         className="mx-auto"
       />
-      <p className="lg:text-center">
+      <p className="lg:text-xl font-bold xl:text-2xl lg:text-center">
         Are you interested in running a business like ours? We help you do this
         by lending our franchise.
       </p>

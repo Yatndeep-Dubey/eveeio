@@ -7,12 +7,13 @@ import {
   Services,
   Feedback,
   Brands,
+  HeroCarousel,
 } from "../components/home";
 
 const Home = () => {
   return (
     <div>
-      <Hero />
+      <HeroCarousel />
       <MapSection />
       <Investors />
       <Services />

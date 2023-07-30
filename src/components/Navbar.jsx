@@ -9,7 +9,7 @@ import { MobMenu, OurServices } from "./navbar/";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 z-50 w-full backdrop-blur pt-5 md:pt-[3rem]">
+    <nav className="fixed top-0 z-50 w-full backdrop-blur pt-5 md:pt-[1.5rem]">
       {/* for small screen */}
       <div className="bg-white shadow pl-3 h-[3.813rem] mx-[0.688rem] rounded-2xl flex items-center justify-between lg:hidden">
         {/* logo */}
@@ -42,7 +42,7 @@ const Navbar = () => {
           <OurServices />
           <MenuItem link="/contact" title="Contact Us" />
           <li>
-            <Link to="/download">
+            <Link to="/">
               <button className="bg-secondary py-1 px-5 rounded font-bold">
                 <p className="text-[#263973] ">Download</p>
               </button>  

@@ -2,7 +2,7 @@ import { Popup } from "../../props";
 
 const Privacy = () => {
   return (
-    <div>
+    <>
       <Popup
         title="Privacy & Policy"
         content={
@@ -40,7 +40,7 @@ const Privacy = () => {
           </div>
         }
       />
-    </div>
+    </>
   );
 };
 

@@ -12,16 +12,16 @@ const Payment = () => {
       {/* payment chart */}
       <div className="border border-black w-[23rem] mx-auto my-10 sm:w-[30rem] lg:w-[60rem]">
         <div className="flex">
-          <div className="flex gap-3 items-center justify-center border-black border-r w-1/2 md:p-5">
+          <div className="flex gap-3 items-center justify-center border-black border-r w-1/2 md:p-5 lg:h-[7rem] xl:h-[10rem]">
             <img
               src="images/franchise/rupee.svg"
-              className="h-5 w-fit"
+              className="h-5 w-fit lg:h-7"
               alt="rupee symbol"
             />
             <div>
-              <p className="text-lg font-bold">2,00,000</p>
-              <p className="font-bold">
-                <span className="text-sm text-blueish font-normal">
+              <p className="text-lg font-bold lg:text-xl">2,00,000</p>
+              <p className="font-bold lg:text-xl">
+                <span className="text-sm text-blueish font-normal lg:text-base">
                   Per vehicle
                 </span>
                 &nbsp;Investment
@@ -29,25 +29,25 @@ const Payment = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-center w-1/2 md:p-5">
+          <div className="flex flex-col p-5 lg:pl-48 justify-center w-1/2">
             <div>
-              <p>17.88%</p>
-              <p className="font-bold">Compounding</p>
+              <p className="text-lg font-bold lg:text-xl">17.88%</p>
+              <p className="font-extrabold text-lg lg:text-xl">Compounding</p>
             </div>
           </div>
         </div>
 
-        <div className="flex border-t border-black">
+        <div className="flex border-t border-black lg:h-[7rem] xl:h-[10rem]">
           <div className="flex gap-3 items-center justify-center border-black border-r w-1/2 md:p-5">
             <img
               src="images/franchise/rupee.svg"
-              className="h-5 w-fit"
+              className="h-5 w-fit lg:h-7"
               alt="rupee symbol"
             />
             <div>
-              <p className="text-lg font-bold">3,60,000</p>
-              <p className="font-bold">
-                <span className="text-sm text-blueish font-normal">
+              <p className="text-lg font-bold lg:text-xl">3,60,000</p>
+              <p className="font-bold lg:text-xl">
+                <span className="text-sm text-blueish font-normal lg:text-base">
                   Returns after
                 </span>
                 &nbsp;4 Years
@@ -55,10 +55,10 @@ const Payment = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-center w-1/2 md:p-5">
+          <div className="flex flex-col p-5 lg:pl-48 justify-center w-1/2">
             <div>
-              <p>20.09%</p>
-              <p className="font-bold">IRR</p>
+              <p className="text-lg font-bold lg:text-xl">20.09%</p>
+              <p className="font-extrabold text-lg lg:text-xl">IRR</p>
             </div>
           </div>
         </div>
