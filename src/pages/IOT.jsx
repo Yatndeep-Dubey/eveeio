@@ -1,6 +1,6 @@
 import { Stats } from "../components/about";
-import { Potentials, Transform } from "../components/iot";
-import { Connect, Details } from "../components/rental";
+import { Connect, Potentials, Transform } from "../components/iot";
+import { Details } from "../components/rental";
 import Hero from "../containers/Hero";
 
 const IOT = () => {
