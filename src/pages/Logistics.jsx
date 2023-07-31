@@ -1,6 +1,6 @@
 import { Investors } from "../components/home";
-import { Content } from "../components/logistics";
-import { Connect, Details } from "../components/rental";
+import { Connect, Content } from "../components/logistics";
+import { Details } from "../components/rental";
 import Hero from "../containers/Hero";
 
 const Logistics = () => {
