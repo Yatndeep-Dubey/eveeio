@@ -70,13 +70,14 @@ const Footer = () => {
           })}
         </div>
 
+      
+
+        <p class='text-white my-7 text-center'>
+        EVEEIO ELECTRIC  is Registered Trade Mark of ZENRATE TECHNOLOGIES PRIVATE LIMITED
+        </p>
         <p className="text-white my-7 text-center">
           Copyright © 2020 All rights reserved.
         </p>
-
-        <div className="flex justify-end mb-7">
-          <img src="images/social/razorpay.svg" alt="razorpay logo" />
-        </div>
       </div>
 
       {/*for large screen */}
@@ -143,7 +144,8 @@ const Footer = () => {
 
           <p>Copyright © 2020 All rights reserved.</p>
 
-          <img src="images/social/razorpay.svg" alt="razorpay logo" />
+          <p>EVEEIO ELECTRIC  is Registered Trade Mark of
+            ZENRATE TECHNOLOGIES PRIVATE LIMITED</p>
         </div>
       </div>
     </footer>
