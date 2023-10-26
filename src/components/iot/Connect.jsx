@@ -8,24 +8,24 @@ import Success from "../Success";
 const Connect = () => {
   const [successMessage, setSuccessMessage] = useState(false);
 
-  const [rname, setName] = useState("");
-  const [remail, setEmail] = useState("");
-  const [rphone_number, setphone_number] = useState("");
-  const [rdate, setdate] = useState("");
-  const [rtime, settime] = useState("");
+  const [tname, setName] = useState("");
+  const [temail, setEmail] = useState("");
+  const [tphone_number, setphone_number] = useState("");
+  const [tdate, setdate] = useState("");
+  const [ttime, settime] = useState("");
 
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      console.log(rname, remail, rphone_number, rdate, rtime);
-      let res = await fetch("http://localhost:4000/rentalform", {
+      console.log(tname, temail, tphone_number, tdate, ttime);
+      let res = await fetch("http://localhost:4000/telemeticsform", {
         method: "POST",
         body: JSON.stringify({
-          name: rname,
-          email: remail,
-          phone_number: rphone_number,
-          date: rdate,
-          time: rtime,
+          name: tname,
+          email: temail,
+          phone_number: tphone_number,
+          date: tdate,
+          time: ttime,
         }),
       });
 
@@ -56,6 +56,7 @@ const Connect = () => {
   return (
     <section className="my-10 lg:my-0">
       {successMessage && <Success />}
+
       <p className="text-center text-primary font-bold md:text-lg lg:hidden">
         "Let's Connect : Schedule a Meeting with Us!"
       </p>
@@ -77,7 +78,7 @@ const Connect = () => {
           <input
             type="text"
             className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
-            value={rname}
+            value={tname}
             placeholder="Name"
             onChange={(e) => setName(e.target.value)}
           />
@@ -90,7 +91,7 @@ const Connect = () => {
           <input
             type="email"
             className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
-            value={remail}
+            value={temail}
             placeholder="Email"
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -105,7 +106,7 @@ const Connect = () => {
             <input
               type="tel"
               className="rounded-full w-full py-2 px-3 focus:outline-none"
-              value={rphone_number}
+              value={tphone_number}
               placeholder="Phone Number"
               onChange={(e) => setphone_number(e.target.value)}
             />
@@ -119,7 +120,7 @@ const Connect = () => {
           <input
             type="date"
             className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
-            value={rdate}
+            value={tdate}
             onChange={(e) => setdate(e.target.value)}
           />
         </div>
@@ -131,7 +132,7 @@ const Connect = () => {
           <input
             type="time"
             className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
-            value={rtime}
+            value={ttime}
             onChange={(e) => settime(e.target.value)}
           />
         </div>

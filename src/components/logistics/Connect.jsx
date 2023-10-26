@@ -8,24 +8,24 @@ import Success from "../Success";
 const Connect = () => {
   const [successMessage, setSuccessMessage] = useState(false);
 
-  const [rname, setName] = useState("");
-  const [remail, setEmail] = useState("");
-  const [rphone_number, setphone_number] = useState("");
-  const [rdate, setdate] = useState("");
-  const [rtime, settime] = useState("");
+  const [lname, setName] = useState("");
+  const [lemail, setEmail] = useState("");
+  const [lphone_number, setphone_number] = useState("");
+  const [ldate, setdate] = useState("");
+  const [ltime, settime] = useState("");
 
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      console.log(rname, remail, rphone_number, rdate, rtime);
+      console.log(lname, lemail, lphone_number, ldate, ltime);
       let res = await fetch("http://localhost:4000/rentalform", {
         method: "POST",
         body: JSON.stringify({
-          name: rname,
-          email: remail,
-          phone_number: rphone_number,
-          date: rdate,
-          time: rtime,
+          name: lname,
+          email: lemail,
+          phone_number: lphone_number,
+          date: ldate,
+          time: ltime,
         }),
       });
 
@@ -77,7 +77,7 @@ const Connect = () => {
           <input
             type="text"
             className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
-            value={rname}
+            value={lname}
             placeholder="Name"
             onChange={(e) => setName(e.target.value)}
           />
@@ -90,7 +90,7 @@ const Connect = () => {
           <input
             type="email"
             className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
-            value={remail}
+            value={lemail}
             placeholder="Email"
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -105,7 +105,7 @@ const Connect = () => {
             <input
               type="tel"
               className="rounded-full w-full py-2 px-3 focus:outline-none"
-              value={rphone_number}
+              value={lphone_number}
               placeholder="Phone Number"
               onChange={(e) => setphone_number(e.target.value)}
             />
@@ -119,7 +119,7 @@ const Connect = () => {
           <input
             type="date"
             className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
-            value={rdate}
+            value={ldate}
             onChange={(e) => setdate(e.target.value)}
           />
         </div>
@@ -131,7 +131,7 @@ const Connect = () => {
           <input
             type="time"
             className="rounded-full w-full py-2 px-3 focus:outline-none lg:w-[30rem]"
-            value={rtime}
+            value={ltime}
             onChange={(e) => settime(e.target.value)}
           />
         </div>
