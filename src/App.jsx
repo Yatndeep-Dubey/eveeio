@@ -17,6 +17,7 @@ import {
   Logistics,
   NotFound,
   Rental,
+  Refund_policy
 } from "./pages";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/iot" element={<IOT />} />
         <Route path="/jobs" element={<Jobs />} />
         <Route path="/franchise" element={<Franchise />} />
+        <Route path="/refund_policy" element={<Refund_policy/>}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
 

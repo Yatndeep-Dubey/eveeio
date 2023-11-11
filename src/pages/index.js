@@ -9,3 +9,5 @@ export { default as BlogExtended } from "./BlogExtended";
 export { default as Jobs } from "./Jobs";
 export { default as Franchise } from "./Franchise";
 export { default as NotFound } from "./NotFound";
+
+export {default as Refund_policy} from './Refund_policy'

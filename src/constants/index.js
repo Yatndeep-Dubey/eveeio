@@ -56,6 +56,10 @@ export const FooterLinks = [
         text: "Terms & Conditions",
         url: "#tnc",
       },
+      {
+        text:"Refund Policy",
+        url:"/refund_policy"
+      }
     ],
   },
 

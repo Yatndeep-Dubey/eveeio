@@ -6,6 +6,13 @@ import { FooterItem } from "../props";
 import { HiArrowRight, HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
+  const handleClick = (event) =>
+  {
+    if(event.target.id === 'refund_policy')
+    {
+      alert('Link Clicked')
+    }
+  }
   return (
     <footer className="bg-[#2e2e2e]">
       {/* mobile menu */}
@@ -16,6 +23,7 @@ const Footer = () => {
             links={FooterLinks[0].links}
           />
           <FooterItem
+            onClick={handleClick}
             title={FooterLinks[1].title}
             links={FooterLinks[1].links}
           />
